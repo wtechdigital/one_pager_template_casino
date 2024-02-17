@@ -15,12 +15,12 @@ export default function Header() {
 
   return (
     <header className="bg-white">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-x-5 p-2 lg:px-8" aria-label="Global">
-        <div className="flex lg:flex-1">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-x-5 p-3 lg:px-8" aria-label="Global">
+        <div className="flex  lg:justify-start">
           <a href={mainContant.header.logo.link} className="-m-1.5 p-1.5">
             <span className="sr-only">{mainContant.header.brand.name}</span>
             <Image
-                        className="h-10 w-40 mx-auto lg:mx-0 object-fill"
+                        className="h-9 w-40 mx-auto lg:mx-0 object-fill"
                         src={LogoHeader}
                         alt={mainContant.header.brand.name}
                 />
@@ -61,16 +61,16 @@ export default function Header() {
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-12" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-12 w-full overflow-y-auto bg-white px-6 py-2 sm:max-w-sm sm:ring-2 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-12 w-full overflow-y-auto bg-white px-4 py-4 sm:max-w-sm sm:ring-2 sm:ring-gray-900/10">
           <div className="flex items-center gap-x-6">
-            <a href={mainContant.header.logo.link} className="">
+          <div className="flex  lg:justify-start">
               <span className="sr-only">{mainContant.header.brand.name}</span>
               <Image
-                        className="h-10 w-40 mx-auto lg:mx-0 object-fill"
+                        className="h-9 w-40 object-fill"
                         src={LogoHeader}
                         alt={mainContant.header.brand.name}
                 />
-            </a>
+            </div>
             <a
               href={mainContant.header.registration.link}
               rel="nofollow noreferrer" 
@@ -80,7 +80,7 @@ export default function Header() {
             </a>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className=" rounded-md p-1.5 text-gray-700"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">{mainContant.header.mobile.close}</span>
