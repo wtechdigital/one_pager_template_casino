@@ -22,7 +22,7 @@ export default function Header() {
             <Image
                         className="h-9 w-40 mx-auto lg:mx-0 object-fill"
                         src={LogoHeader}
-                        alt={mainContant.header.brand.name}
+                        alt={mainContant.header.brand.alt}
                 />
           </a>
         </div>
@@ -68,13 +68,13 @@ export default function Header() {
               <Image
                         className="h-9 w-40 object-fill"
                         src={LogoHeader}
-                        alt={mainContant.header.brand.name}
+                        alt={mainContant.header.brand.alt}
                 />
             </div>
             <a
               href={mainContant.header.registration.link}
               rel="nofollow noreferrer" 
-              className="ml-auto rounded-3xl bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+              className="ml-auto rounded-3xl bg-custom-green px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
             >
               {mainContant.header.registration.text}
             </a>

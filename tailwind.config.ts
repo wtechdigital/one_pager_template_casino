@@ -17,7 +17,8 @@ const config: Config = {
         'custom-blue': '#162785', // Adding custom color
         'custom-yellow': '#f7b637', // Adding custom color
         'custom-dark-yellow': '#e5a935',
-        'custom-dark-blue': '#030534'
+        'custom-dark-blue': '#030534', // Hero footer background
+        'custom-green' : '#10893C'
       },
     },
   },
