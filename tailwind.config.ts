@@ -16,6 +16,8 @@ const config: Config = {
       colors: {
         'custom-blue': '#162785', // Adding custom color
         'custom-yellow': '#f7b637', // Adding custom color
+        'custom-dark-yellow': '#e5a935',
+        'custom-dark-blue': '#030534'
       },
     },
   },

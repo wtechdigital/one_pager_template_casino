@@ -1,4 +1,4 @@
-import Logo from "@/app/images/logo.svg"
+import LogoFooter from "@/app/images/logo_footer.svg"
 import Image from "next/image"
 
 const navigation = {
@@ -93,7 +93,7 @@ const navigation = {
   
   export default function Footer() {
     return (
-      <footer className="bg-gray-900" aria-labelledby="footer-heading">
+      <footer className="bg-custom-dark-blue" aria-labelledby="footer-heading">
         <h2 id="footer-heading" className="sr-only">
           Footer
         </h2>
@@ -101,8 +101,8 @@ const navigation = {
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8">
             <Image
-                        className="h-12 w-12 mx-auto lg:mx-0 rounded-full object-fill"
-                        src={Logo}
+                        className="h-100 w-100 mx-auto lg:mx-0  object-fill"
+                        src={LogoFooter}
                         alt="Олимп"
                 />
               <p className="text-sm leading-6 text-gray-300">

@@ -28,7 +28,7 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {mainContant.header.navigation.map((item) => (
-            <Link key={item.name} href={item.link} className="text-sm font-semibold leading-6 text-gray-900">
+            <Link key={item.name} href={item.link} className="text-sm font-semibold leading-6 text-gray-900 hover:text-custom-yellow">
               {item.name}
             </Link>
           ))}
@@ -36,13 +36,13 @@ export default function Header() {
         <div className="flex flex-1 items-center justify-end gap-x-6">
           <a href={mainContant.header.login.link} 
             rel="nofollow noreferrer" 
-            className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">
+            className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900 hover:text-custom-yellow">
             {mainContant.header.login.text}
           </a>
           <a
             href={mainContant.header.registration.link} 
             rel="nofollow noreferrer"
-            className="rounded-md bg-rose-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-rose-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-600"
+            className="rounded-3xl bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
           >
             {mainContant.header.registration.text} 
           </a>
@@ -50,7 +50,7 @@ export default function Header() {
         <div className="flex lg:hidden">
             <button
               type="button"
-              className="inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="inline-flex items-center justify-center rounded-3xl p-2.5 text-gray-700"
               onClick={() => setMobileMenuOpen(true)}
               style={{ margin: 'auto' }}
             >
@@ -74,13 +74,13 @@ export default function Header() {
             <a
               href={mainContant.header.registration.link}
               rel="nofollow noreferrer" 
-              className="ml-auto rounded-md bg-rose-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-rose-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-600"
+              className="ml-auto rounded-3xl bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
             >
               {mainContant.header.registration.text}
             </a>
             <button
               type="button"
-              className=" rounded-md p-1.5 text-gray-700"
+              className=" rounded-3xl p-1.5 text-gray-700"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">{mainContant.header.mobile.close}</span>

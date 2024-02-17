@@ -1,21 +1,28 @@
 import Image from "next/image"
 import Logo from "@/app/images/logo.svg"
+import { StarIcon } from '@heroicons/react/24/solid'
 
 export default function Hero() {
     return (
       
       <hero> 
-        <div className="bg-gray-900">
+        <div className="bg-custom-dark-blue">
           
         <div className="mx-auto max-w-5xl px-6 lg:px-8 py-12 lg:py-32 flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0 lg:space-x-6">
-          
-          <div className="flex-shrink-0">
-            <Image
-              className="h-32 w-32 mx-auto lg:mx-0 rounded-full object-fill"
-              src={Logo}
-              alt="Олимп"
-            />
+      
+        <div class="relative">
+  <div>
+    <Image
+      className="h-32 w-32 mx-auto lg:mx-0 rounded-full object-fill"
+      src={Logo}
+      alt="Олимп"
+    />
+  </div>
+          <div class="absolute top-3 right-5  font-semibold translate-x-1/2 -translate-y-1/2 bg-white rounded-full text-black px-2 py-1 flex items-center">
+            9.8 <StarIcon className="text-custom-yellow w-5 h-5 ml-1" aria-hidden="true" />
           </div>
+        </div>
+                      
       
           <div className="text-white text-center lg:text-left">
             <p className="text-3xl font-bold tracking-tight sm:text-4xl">
@@ -32,7 +39,7 @@ export default function Hero() {
           <div className="flex justify-center lg:block">
             <a
               href="#"
-              className="inline-flex items-center justify-center px-12 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 transition duration-150 ease-in-out"
+              className="inline-flex items-center justify-center px-20 py-3 md:px-12 border border-transparent text-base font-medium rounded-3xl text-black bg-custom-yellow hover:bg-custom-dark-yellow transition duration-150 ease-in-out"
             >
               Играть
             </a>
