@@ -84,6 +84,7 @@ export default function Slots() {
                             <a
                              href={slot.link}
                              rel="nofollow noreferrer" 
+                             aria-label="Играть"
                                 className="inline-flex items-center justify-center rounded-full bg-blue-700 hover:bg-blue-600 p-3 text-center text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-600"
                                 >
                                 <PlayIcon className="h-6 w-6 " aria-hidden="true" />
