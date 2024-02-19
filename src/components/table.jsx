@@ -1,8 +1,8 @@
 export default function Table(){
     const info = [
-      { name: '🎁 Бонус', title: '150 000KZT' },
-      { name: '▶️ Приложение от Олимп', title: 'Ставки на спорт + онлайн казино зеркало' },
-      { name: '🎮Азартные игры', title: 'Более 2500'},
+      { id:0, name: '🎁 Бонус', title: '150 000KZT' },
+      { id:1, name: '▶️ Приложение от Олимп', title: 'Ставки на спорт + онлайн казино зеркало' },
+      { id:2, name: '🎮Азартные игры', title: 'Более 2500'},
     ]
       return (
         <div className="px-0 sm:px-6 lg:px-0">
@@ -26,13 +26,12 @@ export default function Table(){
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
-                    {info.map((item) => (
-                      <tr>
+                    {info.map((item) => ( // You can also use item.index here as a fallback if there's no unique ID
+                      <tr key={item.id}> {/* Use item.id if available, otherwise use index */}
                         <td className="whitespace-nowrap py-4 pl-4 pr-3 text-s font-medium text-gray-900 sm:pl-0">
                           {item.name}
                         </td>
                         <td className="whitespace-nowrap px-3 py-4 text-s text-gray-500">{item.title}</td>
-                    
                       </tr>
                     ))}
                   </tbody>

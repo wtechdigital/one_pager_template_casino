@@ -7,6 +7,7 @@ import H1Block from '@/components/content/H1Block'
 import H2Slots from '@/components/content/H2Slots'
 import H2Bonus from '@/components/content/H2Bonus'
 import H2Info from '@/components/content/H2Info'
+import H2SimpleContentBlock from '@/components/content/H2SimpleContentBlock'
 
 const mainContant = require(`@/app/content/main.json`);
 
@@ -80,7 +81,7 @@ export default function Home() {
       <H2Slots content={mainContant.content['1']} />
       <H2Bonus content={mainContant.content['2']} />
       <H2Info content={mainContant.content['3']} />
-
+      <H2SimpleContentBlock content={mainContant.content['4']} />
       </div>
     </div>
     </main>
