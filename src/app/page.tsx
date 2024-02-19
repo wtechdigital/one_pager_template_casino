@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   // Basic SEO tags
   title: "Олимп Казино - Сайт Olimp Казино в Казахстане",
   description: "Откройте для себя захватывающий мир азартных игр в Олимп Казино. Большой выбор игр, высокие выплаты и бонусы ждут вас. Присоединяйтесь сегодня!",
-  robots: "index, follow", // Use "noindex, nofollow" to prevent search engines from indexing and following this page
+  robots: "noindex, nofollow", // Use "noindex, nofollow" to prevent search engines from indexing and following this page
   alternates: {
     canonical: '/',
     languages: {

@@ -19,6 +19,7 @@
    ],
 */
 import Slots from "@/components/slotList"
+import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
 
 function H2Slots({ content }) {
     return (
@@ -38,11 +39,18 @@ function H2Slots({ content }) {
         <p className="mt-6">
             {content.paragraphs[3].text}
         </p>
-        {content.list.map((list, index) => (
-          <li key={index} className="mt-6">
-            {list.text}
-          </li>
-        ))}
+        <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+            {content.list.map((list, index) => (
+            
+                <li  key={index} className="flex gap-x-3">
+                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-blue" aria-hidden="true" />
+                  <span> 
+                  {list.text}
+                  </span>
+                </li>
+              
+            ))}
+        </ul>
          <p className="mt-6">
             {content.paragraphs[4].text}
         </p>
