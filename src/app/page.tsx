@@ -2,10 +2,11 @@ import Image from "next/image";
 import Hero from "@/components/hero"
 import Slots from "@/components/slotList"
 import Table from "@/components/table"
-import Head from 'next/head';
 import type { Metadata } from "next";
 import H1Block from '@/components/content/H1Block'
 import H2Slots from '@/components/content/H2Slots'
+import H2Bonus from '@/components/content/H2Bonus'
+import H2Info from '@/components/content/H2Info'
 
 const mainContant = require(`@/app/content/main.json`);
 
@@ -77,6 +78,8 @@ export default function Home() {
             </a>
           </div>
       <H2Slots content={mainContant.content['1']} />
+      <H2Bonus content={mainContant.content['2']} />
+      <H2Info content={mainContant.content['3']} />
 
       </div>
     </div>

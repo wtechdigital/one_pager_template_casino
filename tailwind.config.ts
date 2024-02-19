@@ -18,10 +18,12 @@ const config: Config = {
         'custom-yellow': '#f7b637', // Adding custom color
         'custom-dark-yellow': '#e5a935',
         'custom-dark-blue': '#030534', // Hero footer background
-        'custom-green' : '#10893C'
+        'custom-green' : '#10893C',
+        'custom-bonus-card' : '#600297'
       },
     },
   },
   plugins: [],
 };
+
 export default config;
