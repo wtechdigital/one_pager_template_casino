@@ -18,11 +18,12 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-x-5 p-3 lg:px-8" aria-label="Global">
         <div className="flex  lg:justify-start">
           <a href={mainContant.header.logo.link} className="-m-1.5 p-1.5">
-            <span className="sr-only">{mainContant.header.brand.name}</span>
+            <span className="sr-only">{mainContant.header.logo.name}</span>
             <Image
                         className="h-9 w-40 mx-auto lg:mx-0 object-fill"
                         src={LogoHeader}
-                        alt={mainContant.header.brand.alt}
+                        alt={mainContant.header.logo.alt}
+                        title={mainContant.header.logo.title}
                 />
           </a>
         </div>
@@ -64,11 +65,12 @@ export default function Header() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-12 w-full overflow-y-auto bg-white px-4 py-4 sm:max-w-sm sm:ring-2 sm:ring-gray-900/10">
           <div className="flex items-center gap-x-6">
           <div className="flex  lg:justify-start">
-              <span className="sr-only">{mainContant.header.brand.name}</span>
+              <span className="sr-only">{mainContant.header.logo.name}</span>
               <Image
                         className="h-9 w-40 object-fill"
                         src={LogoHeader}
-                        alt={mainContant.header.brand.alt}
+                        alt={mainContant.header.logo.alt}
+                        title={mainContant.header.logo.title}
                 />
             </div>
             <a
@@ -82,6 +84,7 @@ export default function Header() {
               type="button"
               className=" rounded-3xl p-1.5 text-gray-700"
               onClick={() => setMobileMenuOpen(false)}
+              style={{ margin: 'auto', zIndex: 9999 }}
             >
               <span className="sr-only">{mainContant.header.mobile.close}</span>
               <XMarkIcon className="h-6 w-6" aria-hidden="true" />

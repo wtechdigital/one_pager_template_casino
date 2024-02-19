@@ -53,7 +53,8 @@ const navigation = {
                 <Image
                   className="h-auto w-auto max-h-20"
                   src={LogoFooter}            
-                  alt="Олимп"
+                  alt={mainContant.footer.logo.alt}
+                  title={mainContant.footer.logo.title}
                 />
         </div>
          
