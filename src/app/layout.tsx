@@ -1,11 +1,8 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import Head from "next/head"
 import { FAQPage, WithContext } from "schema-dts";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const jsonLd: WithContext<FAQPage> = {
   "@context": "https://schema.org",
