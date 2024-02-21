@@ -13,7 +13,7 @@ import H3SimpleContentBlock from '@/components/content/H3SimpleContentBlock'
 import H2PListPP from '@/components/content/H2PListPP'
 import H2PPListP from '@/components/content/H2PPListP'
 import Faq from '@/components/faq'
-import Reviews from '@/components/Reviews'
+import Reviews from '@/components/reviews'
 import Cta_blue from '@/components/cta_blue'
 import Cta_white from '@/components/cta_white'
 
