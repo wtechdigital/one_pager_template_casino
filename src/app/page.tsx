@@ -25,13 +25,9 @@ export const metadata: Metadata = {
   description: "Откройте для себя захватывающий мир азартных игр в Олимп Казино. Большой выбор игр, высокие выплаты и бонусы ждут вас. Присоединяйтесь сегодня!",
   robots: "noindex, nofollow", // Use "noindex, nofollow" to prevent search engines from indexing and following this page
   alternates: {
-    canonical: '/',
-    languages: {
-      'ru-RU': '/',
-    },
-  },
-  
-    icons: {
+    canonical: `https://greenworld.kz`,
+  },  
+  icons: {
       shortcut: '/shortcut-icon.png',
       apple: '/apple-icon.png',
       other: {
@@ -40,31 +36,29 @@ export const metadata: Metadata = {
       },
     },
 
-  authors: [{ name: 'Seb' }, { name: 'Josh', url: 'https://nextjs.org' }],
-  creator: 'Jiachi Liu',
-  publisher: 'Sebastian Markbage',
-
-  // Keywords for SEO (less relevant nowadays, but can be included)
-  keywords: "keyword1, keyword2, keyword3",
+  authors: [{ name: 'Olymp' }, { name: 'Casino', url: 'https://greenworld.kz' }],
+  creator: 'Olymp Casino',
+  publisher: 'Olymp Casino',
 
   // Open Graph (OG) tags for social media
   openGraph: {
-    url: "/",
-    title: "Your Page Title for Social Media",
-    description: "Your page description for social media, ideally between 50-160 characters.",
-    images: "/path/to/your/twitter-image.jpg",
-    type: "website", // Could be 'article', 'product', etc. depending on the content type
-    siteName: "YourSiteName",
+    url: "https://greenworld.kz",
+    title: "Играйте в Олимп Казино и получите бонус 150 000 KZT и 250 FS!",
+    description: "Увлекательные игровые автоматы Олимп Казино ждут вас! Ощутите азарт и выиграйте крупные суммы денег вместе с нами!",
+    images: "/image.webp",
+    type: "website",
+    siteName: "Олимп Казино",
+    locale: "ru_KZ", // Note: 'locale' isn't directly part of the second structure, but could be included if your framework supports it
   },
 
   // Twitter Card tags
   twitter: {
-    card: "summary_large_image", // Or "summary" depending on the card type you want
-    site: "@yourtwitterhandle",
-    creator: "@authorstwitterhandle",
-    title: "Your Page Title for Twitter",
-    description: "Your page description for Twitter, ideally between 50-160 characters.",
-    images: "/path/to/your/twitter-image.jpg",
+    card: "summary_large_image", 
+    site: "@olympkz",
+    creator: "@olympkz", // The 'creator' field wasn't provided in the JSON, assuming it's the same as the 'site'
+    title: "Играйте в Олимп Казино и получите бонус 150 000 KZT и 250 FS!",
+    description: "Почувствуйте азарт и выиграйте крупные деньги с увлекательными игровыми автоматами Олимп Казино!",
+    images: "/image.webp",
   },
 };
 
