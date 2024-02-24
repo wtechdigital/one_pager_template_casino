@@ -3,7 +3,7 @@ import { CheckCircleIcon } from '@heroicons/react/20/solid'
 function H2PPListP({ content }) {
     return (
         <>
-      <div className="mt-6">
+      <div id="mobile" className="mt-6">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">{content.title}</h2>
         <p className="mt-6">
             {content.paragraphs[0].text}

@@ -11,28 +11,28 @@ export default function BonusList() {
           bonusDescription: 'Умножаем депозит на два и 250 фриспинов в подарок!',
           imageUrl: welcomeBonus, // Make sure Aviator is a valid image path or imported image
           imageAlt: 'Умножаем депозит на два и 250 фриспинов в подарок!', // Add an alt description for the image
-          link: 'https://mail.ru'
+          link: 'https://go.greenworld.kz'
         },
         {
             bonusTitle: "Cashback",
             bonusDescription: 'Возвращай на свой счёт 1% от оборота!',
             imageUrl: cashBack, // Make sure Aviator is a valid image path or imported image
             imageAlt: "Возвращай на свой счёт 1% от оборота!", // Add an alt description for the image
-            link: 'https://mail.ru'
+            link: 'https://go.greenworld.kz'
         },
         {
             bonusTitle: 'Комбобуст 100%',
             bonusDescription: 'Удвой свой выигрыш на экспресс-ставки!',
             imageUrl: comboBoost, // Make sure Aviator is a valid image path or imported image
             imageAlt: 'Удвой свой выигрыш на экспресс-ставки!', // Add an alt description for the image
-            link: 'https://mail.ru'
+            link: 'https://go.greenworld.kz'
         },
         {
             bonusTitle: 'Бонус на спорт',
             bonusDescription: 'Получите бонус до 100 USD для ставок на спорт!',
             imageUrl: sportBonus, // Make sure Aviator is a valid image path or imported image
             imageAlt: 'Получите бонус до 100 USD для ставок на спорт!', // Add an alt description for the image
-            link: 'https://mail.ru'
+            link: 'https://go.greenworld.kz'
         }
       ];
 

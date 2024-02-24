@@ -64,8 +64,8 @@ const generateWebPageData: WithContext<WebPage> = {
   image: {
     "@type": "ImageObject",
     url: "/image.webp",
-    width: "1200",
-    height: "630"
+    width: "300",
+    height: "300"
   },
   breadcrumb: {
     "@type": "BreadcrumbList",
@@ -87,7 +87,7 @@ const generateWebPageData: WithContext<WebPage> = {
     name: "Олимп Казино",
     logo: {
       "@type": "ImageObject",
-      url: "/logo.webp",
+      url: "/logo.svg",
       width: "600",
       height: "60"
     }

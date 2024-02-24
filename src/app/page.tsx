@@ -23,18 +23,10 @@ export const metadata: Metadata = {
   // Basic SEO tags
   title: "Олимп Казино - Сайт Olimp Казино в Казахстане",
   description: "Откройте для себя захватывающий мир азартных игр в Олимп Казино. Большой выбор игр, высокие выплаты и бонусы ждут вас. Присоединяйтесь сегодня!",
-  robots: "noindex, nofollow", // Use "noindex, nofollow" to prevent search engines from indexing and following this page
+  robots: "index, follow", // Use "noindex, nofollow" to prevent search engines from indexing and following this page
   alternates: {
     canonical: `https://greenworld.kz`,
-  },  
-  icons: {
-      shortcut: '/shortcut-icon.png',
-      apple: '/apple-icon.png',
-      other: {
-        rel: 'apple-touch-icon-precomposed',
-        url: '/apple-touch-icon-precomposed.png',
-      },
-    },
+  },
 
   authors: [{ name: 'Olymp' }, { name: 'Casino', url: 'https://greenworld.kz' }],
   creator: 'Olymp Casino',
@@ -45,7 +37,7 @@ export const metadata: Metadata = {
     url: "https://greenworld.kz",
     title: "Играйте в Олимп Казино и получите бонус 150 000 KZT и 250 FS!",
     description: "Увлекательные игровые автоматы Олимп Казино ждут вас! Ощутите азарт и выиграйте крупные суммы денег вместе с нами!",
-    images: "/image.webp",
+    images: "/logo.svg",
     type: "website",
     siteName: "Олимп Казино",
     locale: "ru_KZ", // Note: 'locale' isn't directly part of the second structure, but could be included if your framework supports it
@@ -58,7 +50,7 @@ export const metadata: Metadata = {
     creator: "@olympkz", // The 'creator' field wasn't provided in the JSON, assuming it's the same as the 'site'
     title: "Играйте в Олимп Казино и получите бонус 150 000 KZT и 250 FS!",
     description: "Почувствуйте азарт и выиграйте крупные деньги с увлекательными игровыми автоматами Олимп Казино!",
-    images: "/image.webp",
+    images: "/logo.svg",
   },
 };
 
@@ -102,6 +94,7 @@ export default function Home() {
       <H2SimpleContentBlock content={mainContant.content[18]} />
       <H2SimpleContentBlock content={mainContant.content[19]} />
       <H2PPListP content={mainContant.content[20]} />
+      <Cta_white title={mainContant.ctaMobile.title} description={mainContant.ctaMobile.description} button={mainContant.ctaMobile.button} link={mainContant.ctaMobile.link} />
       <H2SimpleContentBlock content={mainContant.content[21]} />
       <Faq />
       <Reviews />

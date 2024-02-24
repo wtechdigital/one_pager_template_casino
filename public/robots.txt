@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://greenworld.kz
+
+# Sitemaps
+Sitemap: https://greenworld.kz/sitemap.xml

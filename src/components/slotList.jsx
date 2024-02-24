@@ -16,49 +16,49 @@ export default function Slots() {
           slotTitle: 'Coin Strike: Hold and Win',
           imageUrl: coinStrike, // Make sure Aviator is a valid image path or imported image
           imageAlt: 'Играть в Coin Strike: Hold and Win слот', // Add an alt description for the image
-          link: 'https://mail.ru'
+          link: 'https://go.greenworld.kz'
         },
         {
             slotTitle: "Royal Fruits 5: Hold 'n' Link",
             imageUrl: royalFruits, // Make sure Aviator is a valid image path or imported image
             imageAlt: "Играть в Royal Fruits 5: Hold 'n' Link слот", // Add an alt description for the image
-            link: 'https://mail.ru'
+            link: 'https://go.greenworld.kz'
         },
             {
             slotTitle: 'Gate Of Olympus',
             imageUrl: gateOfOlympus, // Make sure Aviator is a valid image path or imported image
             imageAlt: 'Играть в Gate Of Olympus слот ', // Add an alt description for the image
-            link: 'https://mail.ru'
+            link: 'https://go.greenworld.kz'
         },
         {
             slotTitle: 'Coin Volcano',
             imageUrl: coinVulkano, // Make sure Aviator is a valid image path or imported image
             imageAlt: 'Играть в Coin Volcano слот', // Add an alt description for the image
-            link: 'https://mail.ru'
+            link: 'https://go.greenworld.kz'
         },
           {
             slotTitle: 'Lucky Streak',
             imageUrl: luckyStreak, // Make sure Aviator is a valid image path or imported image
             imageAlt: 'Играть в Lucky Streak слот', // Add an alt description for the image
-            link: 'https://mail.ru'
+            link: 'https://go.greenworld.kz'
         },
           {
             slotTitle: 'Sweet Bonanza',
             imageUrl: sweetBonanza, // Make sure Aviator is a valid image path or imported image
             imageAlt: 'Играть в Sweet Bonanza слот', // Add an alt description for the image
-            link: 'https://mail.ru'
+            link: 'https://go.greenworld.kz'
         },
           {
             slotTitle: 'Furit Cocktail',
             imageUrl: furitCocktail, // Make sure Aviator is a valid image path or imported image
             imageAlt: 'Играть в Furit Cocktail слот', // Add an alt description for the image
-            link: 'https://mail.ru'
+            link: 'https://go.greenworld.kz'
         },
           {
             slotTitle: 'Coin Strike: Hold and Win',
             imageUrl: coinStrike, // Make sure Aviator is a valid image path or imported image
             imageAlt: 'Описание игрового автомата Aviator', // Add an alt description for the image
-            link: 'https://mail.ru'
+            link: 'https://go.greenworld.kz'
         },
       ];
 
